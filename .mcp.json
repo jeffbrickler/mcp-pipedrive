@@ -1,0 +1,13 @@
+{
+  "pipedrive": {
+    "command": "node",
+    "args": ["./dist/index.cjs"],
+    "env": {
+      "PIPEDRIVE_API_TOKEN": "${PIPEDRIVE_API_TOKEN}",
+      "PIPEDRIVE_DOMAIN": "${PIPEDRIVE_DOMAIN}",
+      "MCP_TRANSPORT": "stdio",
+      "PIPEDRIVE_RATE_LIMIT_MIN_TIME_MS": "250",
+      "PIPEDRIVE_RATE_LIMIT_MAX_CONCURRENT": "2"
+    }
+  }
+}
