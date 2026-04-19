@@ -1,0 +1,17 @@
+{
+  "name": "cadtalk-plugins",
+  "owner": {
+    "name": "CADTALK",
+    "url": "https://cadtalk.com"
+  },
+  "metadata": {
+    "description": "CADTALK internal Claude Code plugins"
+  },
+  "plugins": [
+    {
+      "name": "pipedrive",
+      "description": "Full Pipedrive CRM integration — deals, contacts, organizations, leads, and activities.",
+      "source": "./"
+    }
+  ]
+}
