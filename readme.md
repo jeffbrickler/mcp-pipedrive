@@ -12,7 +12,7 @@ In `~/.claude/settings.json`, add under `extraKnownMarketplaces`:
 "cadtalk-plugins": {
   "source": {
     "source": "github",
-    "repo": "CADTALKtech/mcp-pipedrive"
+    "repo": "jeffbrickler/mcp-pipedrive"
   }
 }
 ```
@@ -58,7 +58,7 @@ Share these steps with CADTALK teammates:
 
 ```
 1. Add to ~/.claude/settings.json under extraKnownMarketplaces:
-   "cadtalk-plugins": { "source": { "source": "github", "repo": "CADTALKtech/mcp-pipedrive" } }
+   "cadtalk-plugins": { "source": { "source": "github", "repo": "jeffbrickler/mcp-pipedrive" } }
 
 2. claude plugins add pipedrive@cadtalk-plugins
 
