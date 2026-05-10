@@ -1,6 +1,6 @@
 {
   "name": "pipedrive",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Full Pipedrive CRM integration for Claude Code — manage deals, contacts, organizations, leads, and activities directly from Claude. Run /pipedrive-setup after install to configure your API credentials.",
   "author": {
     "name": "CADTALK",
